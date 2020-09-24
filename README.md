@@ -2,7 +2,7 @@
 
 Node.js package for converting html to pdf with azure
 
-v0.0.4
+v0.0.5
 
 ## Installation
 
@@ -34,13 +34,13 @@ npm install htmlToPdfWithAzure --save
 
 ### 3. Usage
 
-***Method Name : uploadFiletoSharePoint*** - Used to upload file on share point which then be converted to pdf
+***Method Name : htmlToPdfConvert*** - Used to upload file on share point which then be converted to pdf
 
 ```javascript
 var HtmlToPdfWithAzure = require('htmlToPdfWithAzure');
 
 // All the enviornment variable mentioned will be set in .env file
-const pdfFile = await graph.uploadFiletoSharePoint(htmlContent, PDF_SCOPE_URL, userid, access_token, PDFFolderName);
+const pdfFile = await HtmlToPdfWithAzure.htmlToPdfConvert(htmlContent, PDF_SCOPE_URL, userid, access_token, PDFFolderName);
 
 
 if (!!pdfFile) {
