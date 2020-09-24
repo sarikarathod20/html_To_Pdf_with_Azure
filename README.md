@@ -2,7 +2,7 @@
 
 Node.js package for converting html to pdf with azure
 
-v0.0.11
+v0.0.1
 
 ## Installation
 
