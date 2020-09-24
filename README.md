@@ -28,8 +28,8 @@ npm install htmlToPdfWithAzure --save
 
 ### 2.Prerequisites
 
-    1. User need to have a sharepoint account as the files converted will be saved      on the sharepoint only
-    2. User need to have azure app access through which user will get their user id     and access token
+    1. User need to have a sharepoint account as the files converted will be saved on the sharepoint only
+    2. User need to have azure app access through which user will get their user id and access token
 
 
 ### 3. Usage
