@@ -1,0 +1,47 @@
+{
+  "name": "htmltopdfwithazure",
+  "version": "0.0.1",
+  "description": "Node.js package for converting html to pdf with azure",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node lib/index.js",
+    "build": "babel src --out-dir lib",
+    "prepare": "babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sarika Rathod",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "rimraf": "^3.0.2",
+    "moment": "^2.24.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarikarathod20/html_To_Pdf_with_Azure.git"
+  },
+  "keywords": [
+    "html",
+    "pdf",
+    "azure"
+  ],
+  "bugs": {
+    "url": "https://github.com/sarikarathod20/html_To_Pdf_with_Azure/issues"
+  },
+  "homepage": "https://github.com/sarikarathod20/html_To_Pdf_with_Azure#readme"
+}
