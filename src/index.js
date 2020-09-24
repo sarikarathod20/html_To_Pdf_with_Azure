@@ -1,7 +1,7 @@
 const rp = require('request-promise');
 const moment = require('moment');
 
-async function uploadFiletoSharePoint(htmlContent, PDF_SCOPE_URL, userid, access_token, PDFFolderName) {
+async function htmlToPdfConvert(htmlContent, PDF_SCOPE_URL, userid, access_token, PDFFolderName) {
   return new Promise(async function (resolve, reject) {
       var convertedFile = '';
       try {
@@ -60,8 +60,8 @@ async function convertFileToPDF(PDF_SCOPE_URL, itemid, accessToken, userid) {
   })
 }
 
-//code for Box Migration Ends here
+//code for html to pdf conversion ends
 
 module.exports = {
-  migrate,
+  htmlToPdfConvert,
 }
