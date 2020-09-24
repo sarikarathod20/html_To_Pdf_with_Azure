@@ -1,6 +1,6 @@
 {
   "name": "htmltopdfwithazure",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Node.js package for converting html to pdf with azure",
   "main": "lib/index.js",
   "scripts": {
