@@ -1,4 +1,4 @@
-# box-azure-migrate
+# htmlToPdfWithAzure
 
 Node.js package for converting html to pdf with azure
 
