@@ -35,6 +35,7 @@ async function htmlToPdfConvert(htmlContent, PDF_SCOPE_URL, userid, access_token
 async function convertFileToPDF(PDF_SCOPE_URL, itemid, accessToken, userid) {
   return new Promise(async function (resolve, reject) {
       var convertedFile = '';
+    
       try {
           var options = {
               url: `${PDF_SCOPE_URL}/users/${userid}/drive/items/${itemid}/content?format=pdf`,
