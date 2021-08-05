@@ -34,14 +34,9 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: Snyk
+      - name: Run Snyk
         # You may pin to the exact commit or the version.
         # uses: snyk/actions@7fad562681122205233d1242c3bb39598c5393da
         uses: snyk/actions@0.3.0
         env:
-          SNYK_TOKEN: be535740-a8b4-432f-b350-e23e536a1c19
-        with:
-          # Which Snyk command to run, defaults to test
-          command: test
-          # Additional arguments to pass to Snyk
-          args: test
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN_ }}
